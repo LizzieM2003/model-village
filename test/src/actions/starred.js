@@ -5,9 +5,9 @@ export const addStarred = influencer => ({
   influencer
 });
 
-export const removeStarred = id => ({
+export const removeStarred = influencer => ({
   type: constants.REMOVE_STARRED,
-  id
+  influencer
 });
 
 export const sortStarred = sortBy => ({

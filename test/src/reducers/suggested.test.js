@@ -5,4 +5,5 @@ describe('suggestedReducer', () => {
   it('sets the initial state', () => {
     expect(suggestedReducer(suggestedData, {})).toEqual(suggestedData);
   });
+
 });

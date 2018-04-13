@@ -24,9 +24,8 @@ describe('starred influencer actions', () => {
   });
 
   it('creates an action to remove a starred influencer', () => {
-    const id = 123;
-    const expectedAction = { type: constants.REMOVE_STARRED, id };
-    expect(actions.removeStarred(id)).toEqual(expectedAction);
+    const expectedAction = { type: constants.REMOVE_STARRED, influencer };
+    expect(actions.removeStarred(influencer)).toEqual(expectedAction);
   });
 
   it('creates an action to sort starred influencers', () => {
