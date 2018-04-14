@@ -24,16 +24,21 @@ describe('starred influencer actions', () => {
   });
 
   it('creates an action to remove a starred influencer', () => {
-    const expectedAction = { type: constants.REMOVE_STARRED, influencer };
-    expect(actions.removeStarred(influencer)).toEqual(expectedAction);
+    const influencer_id = influencer.influencer_id;
+
+    const expectedAction = {
+      type: constants.REMOVE_STARRED,
+      influencer_id
+    };
+    expect(actions.removeStarred(influencer_id)).toEqual(expectedAction);
   });
 
   it('creates an action to sort starred influencers', () => {
     const sortBy = {
-        field: constants.ENGAGEMENT,
-        order: constants.ASC
+      field: constants.ENGAGEMENT,
+      order: constants.ASC
     };
-    const expectedAction = { type: constants.SORT_STARRED, sortBy};
+    const expectedAction = { type: constants.SORT_STARRED, sortBy };
     expect(actions.sortStarred(sortBy)).toEqual(expectedAction);
   });
 });

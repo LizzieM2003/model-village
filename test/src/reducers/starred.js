@@ -30,7 +30,7 @@ export default function(state = starredData, action) {
     case constants.ADD_STARRED:
       return [...state, action.influencer];
     case constants.REMOVE_STARRED:
-      return state.filter(influencer => influencer.influencer_id !== action.influencer.influencer_id);
+      return state.filter(influencer => influencer.influencer_id !== action.influencer_id);
     case constants.SORT_STARRED:
       return sortInfluencers([...state], action.sortBy);
     default:

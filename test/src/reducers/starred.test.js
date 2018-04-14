@@ -65,7 +65,7 @@ describe('starredReducer', () => {
     expect(
       starredReducer(initialState, {
         type: constants.REMOVE_STARRED,
-        influencer
+        influencer_id: influencer.influencer_id
       }).length
     ).toBe(1);
   });

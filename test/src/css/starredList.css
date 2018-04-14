@@ -1,12 +1,16 @@
-.SuggestedList {
+.StarredList {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 35%;
-  border-right: 1px dashed silver;
+  width: 65%;
 }
 
-.SuggestedListItem {
+.StarredListItem__container {
+  display: flex;
+  align-items: center;
+}
+
+.StarredListItem {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -14,10 +18,13 @@
   padding: 10px;
   width: 90%;
   margin: 10px auto;
+  background-color: #f8f8f8;
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
   height: 90px;
 }
 
-.SuggestedListItem img {
+.StarredListItem img {
   height: 70px;
   border-radius: 50%;
   border-bottom: 5px solid purple;
@@ -26,7 +33,7 @@
   border-top: 5px solid plum;
 }
 
-.SuggestedListItem__details {
+.StarredListItem__details {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -34,7 +41,21 @@
   padding: 10px;
 }
 
-.SuggestedListItem button {
+.StarredListItem__followers {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.StarredListItem__engagement {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.StarredListItem__container__button {
   height: 50px;
   width: 50px;
   border: none;

@@ -15,7 +15,11 @@ describe('App', () => {
   });
 
   it('contains a connected SuggestedList component', () => {
-    console.log(app.debug());
+    // console.log(app.debug());
     expect(app.find('Connect(SuggestedList)').exists()).toBe(true);
+  });
+
+  it('contains a connect StarredList component', () => {
+    expect(app.find('Connect(StarredList)').exists()).toBe(true);
   });
 });

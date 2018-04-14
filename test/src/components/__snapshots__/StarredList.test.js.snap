@@ -1,0 +1,686 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StarredList renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <StarredList
+    starred={
+        Array [
+            Object {
+              "influencer_full_name": "Anna Griffin",
+              "influencer_id": 987,
+              "influencer_instagram_profile_image": "https://randomuser.me/api/portraits/women/6.jpg",
+              "influencer_instagram_username": "anna_griffin_123",
+              "statistics": Object {
+                "engagement": "6.84",
+                "followers": 21231,
+              },
+            },
+            Object {
+              "influencer_full_name": "Melissa Peterson",
+              "influencer_id": 876,
+              "influencer_instagram_profile_image": "https://randomuser.me/api/portraits/women/84.jpg",
+              "influencer_instagram_username": "melissa_peterson",
+              "statistics": Object {
+                "engagement": "5.23",
+                "followers": 5122,
+              },
+            },
+            Object {
+              "influencer_full_name": "Kathryn Smith",
+              "influencer_id": 765,
+              "influencer_instagram_profile_image": "https://randomuser.me/api/portraits/women/71.jpg",
+              "influencer_instagram_username": "kat_smith",
+              "statistics": Object {
+                "engagement": "2.36",
+                "followers": 7161,
+              },
+            },
+            Object {
+              "influencer_full_name": "Patricia Rios",
+              "influencer_id": 654,
+              "influencer_instagram_profile_image": "https://randomuser.me/api/portraits/women/49.jpg",
+              "influencer_instagram_username": "patricia_rios_1993",
+              "statistics": Object {
+                "engagement": "1.61",
+                "followers": 91100,
+              },
+            },
+            Object {
+              "influencer_full_name": "Joan Robertson",
+              "influencer_id": 543,
+              "influencer_instagram_profile_image": "https://randomuser.me/api/portraits/women/26.jpg",
+              "influencer_instagram_username": "j_robertson_lol",
+              "statistics": Object {
+                "engagement": "6.28",
+                "followers": 16013,
+              },
+            },
+            Object {
+              "influencer_full_name": "Sharon Hopkins",
+              "influencer_id": 432,
+              "influencer_instagram_profile_image": "https://randomuser.me/api/portraits/women/44.jpg",
+              "influencer_instagram_username": "sharon_hopkins234",
+              "statistics": Object {
+                "engagement": "4.73",
+                "followers": 37300,
+              },
+            },
+          ]
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h2>
+          Starred Influencers
+</h2>,
+        <div
+          className="StarredList-items"
+>
+          <Connect(Component)
+                    influencer_full_name="Anna Griffin"
+                    influencer_id={987}
+                    influencer_instagram_profile_image="https://randomuser.me/api/portraits/women/6.jpg"
+                    influencer_instagram_username="anna_griffin_123"
+                    statistics={
+                              Object {
+                                        "engagement": "6.84",
+                                        "followers": 21231,
+                                      }
+                    }
+          />
+          <Connect(Component)
+                    influencer_full_name="Melissa Peterson"
+                    influencer_id={876}
+                    influencer_instagram_profile_image="https://randomuser.me/api/portraits/women/84.jpg"
+                    influencer_instagram_username="melissa_peterson"
+                    statistics={
+                              Object {
+                                        "engagement": "5.23",
+                                        "followers": 5122,
+                                      }
+                    }
+          />
+          <Connect(Component)
+                    influencer_full_name="Kathryn Smith"
+                    influencer_id={765}
+                    influencer_instagram_profile_image="https://randomuser.me/api/portraits/women/71.jpg"
+                    influencer_instagram_username="kat_smith"
+                    statistics={
+                              Object {
+                                        "engagement": "2.36",
+                                        "followers": 7161,
+                                      }
+                    }
+          />
+          <Connect(Component)
+                    influencer_full_name="Patricia Rios"
+                    influencer_id={654}
+                    influencer_instagram_profile_image="https://randomuser.me/api/portraits/women/49.jpg"
+                    influencer_instagram_username="patricia_rios_1993"
+                    statistics={
+                              Object {
+                                        "engagement": "1.61",
+                                        "followers": 91100,
+                                      }
+                    }
+          />
+          <Connect(Component)
+                    influencer_full_name="Joan Robertson"
+                    influencer_id={543}
+                    influencer_instagram_profile_image="https://randomuser.me/api/portraits/women/26.jpg"
+                    influencer_instagram_username="j_robertson_lol"
+                    statistics={
+                              Object {
+                                        "engagement": "6.28",
+                                        "followers": 16013,
+                                      }
+                    }
+          />
+          <Connect(Component)
+                    influencer_full_name="Sharon Hopkins"
+                    influencer_id={432}
+                    influencer_instagram_profile_image="https://randomuser.me/api/portraits/women/44.jpg"
+                    influencer_instagram_username="sharon_hopkins234"
+                    statistics={
+                              Object {
+                                        "engagement": "4.73",
+                                        "followers": 37300,
+                                      }
+                    }
+          />
+</div>,
+      ],
+      "className": "StarredList",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Starred Influencers",
+        },
+        "ref": null,
+        "rendered": "Starred Influencers",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <Connect(Component)
+              influencer_full_name="Anna Griffin"
+              influencer_id={987}
+              influencer_instagram_profile_image="https://randomuser.me/api/portraits/women/6.jpg"
+              influencer_instagram_username="anna_griffin_123"
+              statistics={
+                            Object {
+                                          "engagement": "6.84",
+                                          "followers": 21231,
+                                        }
+              }
+/>,
+            <Connect(Component)
+              influencer_full_name="Melissa Peterson"
+              influencer_id={876}
+              influencer_instagram_profile_image="https://randomuser.me/api/portraits/women/84.jpg"
+              influencer_instagram_username="melissa_peterson"
+              statistics={
+                            Object {
+                                          "engagement": "5.23",
+                                          "followers": 5122,
+                                        }
+              }
+/>,
+            <Connect(Component)
+              influencer_full_name="Kathryn Smith"
+              influencer_id={765}
+              influencer_instagram_profile_image="https://randomuser.me/api/portraits/women/71.jpg"
+              influencer_instagram_username="kat_smith"
+              statistics={
+                            Object {
+                                          "engagement": "2.36",
+                                          "followers": 7161,
+                                        }
+              }
+/>,
+            <Connect(Component)
+              influencer_full_name="Patricia Rios"
+              influencer_id={654}
+              influencer_instagram_profile_image="https://randomuser.me/api/portraits/women/49.jpg"
+              influencer_instagram_username="patricia_rios_1993"
+              statistics={
+                            Object {
+                                          "engagement": "1.61",
+                                          "followers": 91100,
+                                        }
+              }
+/>,
+            <Connect(Component)
+              influencer_full_name="Joan Robertson"
+              influencer_id={543}
+              influencer_instagram_profile_image="https://randomuser.me/api/portraits/women/26.jpg"
+              influencer_instagram_username="j_robertson_lol"
+              statistics={
+                            Object {
+                                          "engagement": "6.28",
+                                          "followers": 16013,
+                                        }
+              }
+/>,
+            <Connect(Component)
+              influencer_full_name="Sharon Hopkins"
+              influencer_id={432}
+              influencer_instagram_profile_image="https://randomuser.me/api/portraits/women/44.jpg"
+              influencer_instagram_username="sharon_hopkins234"
+              statistics={
+                            Object {
+                                          "engagement": "4.73",
+                                          "followers": 37300,
+                                        }
+              }
+/>,
+          ],
+          "className": "StarredList-items",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "987",
+            "nodeType": "class",
+            "props": Object {
+              "influencer_full_name": "Anna Griffin",
+              "influencer_id": 987,
+              "influencer_instagram_profile_image": "https://randomuser.me/api/portraits/women/6.jpg",
+              "influencer_instagram_username": "anna_griffin_123",
+              "statistics": Object {
+                "engagement": "6.84",
+                "followers": 21231,
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "876",
+            "nodeType": "class",
+            "props": Object {
+              "influencer_full_name": "Melissa Peterson",
+              "influencer_id": 876,
+              "influencer_instagram_profile_image": "https://randomuser.me/api/portraits/women/84.jpg",
+              "influencer_instagram_username": "melissa_peterson",
+              "statistics": Object {
+                "engagement": "5.23",
+                "followers": 5122,
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "765",
+            "nodeType": "class",
+            "props": Object {
+              "influencer_full_name": "Kathryn Smith",
+              "influencer_id": 765,
+              "influencer_instagram_profile_image": "https://randomuser.me/api/portraits/women/71.jpg",
+              "influencer_instagram_username": "kat_smith",
+              "statistics": Object {
+                "engagement": "2.36",
+                "followers": 7161,
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "654",
+            "nodeType": "class",
+            "props": Object {
+              "influencer_full_name": "Patricia Rios",
+              "influencer_id": 654,
+              "influencer_instagram_profile_image": "https://randomuser.me/api/portraits/women/49.jpg",
+              "influencer_instagram_username": "patricia_rios_1993",
+              "statistics": Object {
+                "engagement": "1.61",
+                "followers": 91100,
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "543",
+            "nodeType": "class",
+            "props": Object {
+              "influencer_full_name": "Joan Robertson",
+              "influencer_id": 543,
+              "influencer_instagram_profile_image": "https://randomuser.me/api/portraits/women/26.jpg",
+              "influencer_instagram_username": "j_robertson_lol",
+              "statistics": Object {
+                "engagement": "6.28",
+                "followers": 16013,
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "432",
+            "nodeType": "class",
+            "props": Object {
+              "influencer_full_name": "Sharon Hopkins",
+              "influencer_id": 432,
+              "influencer_instagram_profile_image": "https://randomuser.me/api/portraits/women/44.jpg",
+              "influencer_instagram_username": "sharon_hopkins234",
+              "statistics": Object {
+                "engagement": "4.73",
+                "followers": 37300,
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h2>
+            Starred Influencers
+</h2>,
+          <div
+            className="StarredList-items"
+>
+            <Connect(Component)
+                        influencer_full_name="Anna Griffin"
+                        influencer_id={987}
+                        influencer_instagram_profile_image="https://randomuser.me/api/portraits/women/6.jpg"
+                        influencer_instagram_username="anna_griffin_123"
+                        statistics={
+                                    Object {
+                                                "engagement": "6.84",
+                                                "followers": 21231,
+                                              }
+                        }
+            />
+            <Connect(Component)
+                        influencer_full_name="Melissa Peterson"
+                        influencer_id={876}
+                        influencer_instagram_profile_image="https://randomuser.me/api/portraits/women/84.jpg"
+                        influencer_instagram_username="melissa_peterson"
+                        statistics={
+                                    Object {
+                                                "engagement": "5.23",
+                                                "followers": 5122,
+                                              }
+                        }
+            />
+            <Connect(Component)
+                        influencer_full_name="Kathryn Smith"
+                        influencer_id={765}
+                        influencer_instagram_profile_image="https://randomuser.me/api/portraits/women/71.jpg"
+                        influencer_instagram_username="kat_smith"
+                        statistics={
+                                    Object {
+                                                "engagement": "2.36",
+                                                "followers": 7161,
+                                              }
+                        }
+            />
+            <Connect(Component)
+                        influencer_full_name="Patricia Rios"
+                        influencer_id={654}
+                        influencer_instagram_profile_image="https://randomuser.me/api/portraits/women/49.jpg"
+                        influencer_instagram_username="patricia_rios_1993"
+                        statistics={
+                                    Object {
+                                                "engagement": "1.61",
+                                                "followers": 91100,
+                                              }
+                        }
+            />
+            <Connect(Component)
+                        influencer_full_name="Joan Robertson"
+                        influencer_id={543}
+                        influencer_instagram_profile_image="https://randomuser.me/api/portraits/women/26.jpg"
+                        influencer_instagram_username="j_robertson_lol"
+                        statistics={
+                                    Object {
+                                                "engagement": "6.28",
+                                                "followers": 16013,
+                                              }
+                        }
+            />
+            <Connect(Component)
+                        influencer_full_name="Sharon Hopkins"
+                        influencer_id={432}
+                        influencer_instagram_profile_image="https://randomuser.me/api/portraits/women/44.jpg"
+                        influencer_instagram_username="sharon_hopkins234"
+                        statistics={
+                                    Object {
+                                                "engagement": "4.73",
+                                                "followers": 37300,
+                                              }
+                        }
+            />
+</div>,
+        ],
+        "className": "StarredList",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Starred Influencers",
+          },
+          "ref": null,
+          "rendered": "Starred Influencers",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Connect(Component)
+                influencer_full_name="Anna Griffin"
+                influencer_id={987}
+                influencer_instagram_profile_image="https://randomuser.me/api/portraits/women/6.jpg"
+                influencer_instagram_username="anna_griffin_123"
+                statistics={
+                                Object {
+                                                "engagement": "6.84",
+                                                "followers": 21231,
+                                              }
+                }
+/>,
+              <Connect(Component)
+                influencer_full_name="Melissa Peterson"
+                influencer_id={876}
+                influencer_instagram_profile_image="https://randomuser.me/api/portraits/women/84.jpg"
+                influencer_instagram_username="melissa_peterson"
+                statistics={
+                                Object {
+                                                "engagement": "5.23",
+                                                "followers": 5122,
+                                              }
+                }
+/>,
+              <Connect(Component)
+                influencer_full_name="Kathryn Smith"
+                influencer_id={765}
+                influencer_instagram_profile_image="https://randomuser.me/api/portraits/women/71.jpg"
+                influencer_instagram_username="kat_smith"
+                statistics={
+                                Object {
+                                                "engagement": "2.36",
+                                                "followers": 7161,
+                                              }
+                }
+/>,
+              <Connect(Component)
+                influencer_full_name="Patricia Rios"
+                influencer_id={654}
+                influencer_instagram_profile_image="https://randomuser.me/api/portraits/women/49.jpg"
+                influencer_instagram_username="patricia_rios_1993"
+                statistics={
+                                Object {
+                                                "engagement": "1.61",
+                                                "followers": 91100,
+                                              }
+                }
+/>,
+              <Connect(Component)
+                influencer_full_name="Joan Robertson"
+                influencer_id={543}
+                influencer_instagram_profile_image="https://randomuser.me/api/portraits/women/26.jpg"
+                influencer_instagram_username="j_robertson_lol"
+                statistics={
+                                Object {
+                                                "engagement": "6.28",
+                                                "followers": 16013,
+                                              }
+                }
+/>,
+              <Connect(Component)
+                influencer_full_name="Sharon Hopkins"
+                influencer_id={432}
+                influencer_instagram_profile_image="https://randomuser.me/api/portraits/women/44.jpg"
+                influencer_instagram_username="sharon_hopkins234"
+                statistics={
+                                Object {
+                                                "engagement": "4.73",
+                                                "followers": 37300,
+                                              }
+                }
+/>,
+            ],
+            "className": "StarredList-items",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "987",
+              "nodeType": "class",
+              "props": Object {
+                "influencer_full_name": "Anna Griffin",
+                "influencer_id": 987,
+                "influencer_instagram_profile_image": "https://randomuser.me/api/portraits/women/6.jpg",
+                "influencer_instagram_username": "anna_griffin_123",
+                "statistics": Object {
+                  "engagement": "6.84",
+                  "followers": 21231,
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "876",
+              "nodeType": "class",
+              "props": Object {
+                "influencer_full_name": "Melissa Peterson",
+                "influencer_id": 876,
+                "influencer_instagram_profile_image": "https://randomuser.me/api/portraits/women/84.jpg",
+                "influencer_instagram_username": "melissa_peterson",
+                "statistics": Object {
+                  "engagement": "5.23",
+                  "followers": 5122,
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "765",
+              "nodeType": "class",
+              "props": Object {
+                "influencer_full_name": "Kathryn Smith",
+                "influencer_id": 765,
+                "influencer_instagram_profile_image": "https://randomuser.me/api/portraits/women/71.jpg",
+                "influencer_instagram_username": "kat_smith",
+                "statistics": Object {
+                  "engagement": "2.36",
+                  "followers": 7161,
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "654",
+              "nodeType": "class",
+              "props": Object {
+                "influencer_full_name": "Patricia Rios",
+                "influencer_id": 654,
+                "influencer_instagram_profile_image": "https://randomuser.me/api/portraits/women/49.jpg",
+                "influencer_instagram_username": "patricia_rios_1993",
+                "statistics": Object {
+                  "engagement": "1.61",
+                  "followers": 91100,
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "543",
+              "nodeType": "class",
+              "props": Object {
+                "influencer_full_name": "Joan Robertson",
+                "influencer_id": 543,
+                "influencer_instagram_profile_image": "https://randomuser.me/api/portraits/women/26.jpg",
+                "influencer_instagram_username": "j_robertson_lol",
+                "statistics": Object {
+                  "engagement": "6.28",
+                  "followers": 16013,
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "432",
+              "nodeType": "class",
+              "props": Object {
+                "influencer_full_name": "Sharon Hopkins",
+                "influencer_id": 432,
+                "influencer_instagram_profile_image": "https://randomuser.me/api/portraits/women/44.jpg",
+                "influencer_instagram_username": "sharon_hopkins234",
+                "statistics": Object {
+                  "engagement": "4.73",
+                  "followers": 37300,
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

@@ -20,6 +20,6 @@ describe('SuggestedList', () => {
   });
 
   it('has one SuggestedItem component for each suggested influencer', () => {
-    expect(suggestedList.find('.SuggestedList-items').children().length).toBe(3);
+    expect(suggestedList.find('.SuggestedList-items').children().length).toBe(suggestedData.length);
   });
 });
