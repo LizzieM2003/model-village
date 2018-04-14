@@ -7,7 +7,7 @@ import '../css/suggestedList.css';
 export const SuggestedListItem = props => {
   return (
     <div className="SuggestedListItem">
-      <img src={props.influencer_instagram_profile_image} alt="profile image" />
+      <img src={props.influencer_instagram_profile_image} alt="head shot of influencer" />
       <div className="SuggestedListItem__details">
         <h3>{props.influencer_full_name}</h3>
         <p>{props.influencer_instagram_username}</p>

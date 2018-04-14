@@ -24,6 +24,12 @@
   height: 90px;
 }
 
+.StarredList__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .StarredListItem img {
   height: 70px;
   border-radius: 50%;

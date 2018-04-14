@@ -34,7 +34,7 @@ ShallowWrapper {
           className="StarredListItem"
 >
           <img
-                    alt="profile image"
+                    alt="head shot of influencer"
                     src="https://randomuser.me/api/portraits/women/62.jpg"
           />
           <div
@@ -83,7 +83,7 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <img
-              alt="profile image"
+              alt="head shot of influencer"
               src="https://randomuser.me/api/portraits/women/62.jpg"
 />,
             <div
@@ -123,7 +123,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "alt": "profile image",
+              "alt": "head shot of influencer",
               "src": "https://randomuser.me/api/portraits/women/62.jpg",
             },
             "ref": null,
@@ -269,7 +269,7 @@ ShallowWrapper {
             className="StarredListItem"
 >
             <img
-                        alt="profile image"
+                        alt="head shot of influencer"
                         src="https://randomuser.me/api/portraits/women/62.jpg"
             />
             <div
@@ -318,7 +318,7 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               <img
-                alt="profile image"
+                alt="head shot of influencer"
                 src="https://randomuser.me/api/portraits/women/62.jpg"
 />,
               <div
@@ -358,7 +358,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "alt": "profile image",
+                "alt": "head shot of influencer",
                 "src": "https://randomuser.me/api/portraits/women/62.jpg",
               },
               "ref": null,

@@ -5,6 +5,7 @@ ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <StarredList
+    sortStarred={[Function]}
     starred={
         Array [
             Object {
@@ -83,9 +84,45 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <h2>
-          Starred Influencers
-</h2>,
+        <div
+          className="StarredList__header"
+>
+          <h2>
+                    Starred Influencers
+          </h2>
+          <select
+                    className="StarredList__dropdown"
+                    onChange={[Function]}
+          >
+                    <option
+                              disabled={true}
+                              selected={true}
+                              value=""
+                    >
+                              Sort by
+                    </option>
+                    <option
+                              value="FOLLOWERS ASC"
+                    >
+                              Followers (Low to High)
+                    </option>
+                    <option
+                              value="FOLLOWERS DESC"
+                    >
+                              Followers (High to Low)
+                    </option>
+                    <option
+                              value="ENGAGEMENT ASC"
+                    >
+                              Engagement (Low to High)
+                    </option>
+                    <option
+                              value="ENGAGEMENT DESC"
+                    >
+                              Engagement (High to Low)
+                    </option>
+          </select>
+</div>,
         <div
           className="StarredList-items"
 >
@@ -172,11 +209,164 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "Starred Influencers",
+          "children": Array [
+            <h2>
+              Starred Influencers
+</h2>,
+            <select
+              className="StarredList__dropdown"
+              onChange={[Function]}
+>
+              <option
+                            disabled={true}
+                            selected={true}
+                            value=""
+              >
+                            Sort by
+              </option>
+              <option
+                            value="FOLLOWERS ASC"
+              >
+                            Followers (Low to High)
+              </option>
+              <option
+                            value="FOLLOWERS DESC"
+              >
+                            Followers (High to Low)
+              </option>
+              <option
+                            value="ENGAGEMENT ASC"
+              >
+                            Engagement (Low to High)
+              </option>
+              <option
+                            value="ENGAGEMENT DESC"
+              >
+                            Engagement (High to Low)
+              </option>
+</select>,
+          ],
+          "className": "StarredList__header",
         },
         "ref": null,
-        "rendered": "Starred Influencers",
-        "type": "h2",
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Starred Influencers",
+            },
+            "ref": null,
+            "rendered": "Starred Influencers",
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <option
+                  disabled={true}
+                  selected={true}
+                  value=""
+>
+                  Sort by
+</option>,
+                <option
+                  value="FOLLOWERS ASC"
+>
+                  Followers (Low to High)
+</option>,
+                <option
+                  value="FOLLOWERS DESC"
+>
+                  Followers (High to Low)
+</option>,
+                <option
+                  value="ENGAGEMENT ASC"
+>
+                  Engagement (Low to High)
+</option>,
+                <option
+                  value="ENGAGEMENT DESC"
+>
+                  Engagement (High to Low)
+</option>,
+              ],
+              "className": "StarredList__dropdown",
+              "onChange": [Function],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Sort by",
+                  "disabled": true,
+                  "selected": true,
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": "Sort by",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Followers (Low to High)",
+                  "value": "FOLLOWERS ASC",
+                },
+                "ref": null,
+                "rendered": "Followers (Low to High)",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Followers (High to Low)",
+                  "value": "FOLLOWERS DESC",
+                },
+                "ref": null,
+                "rendered": "Followers (High to Low)",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Engagement (Low to High)",
+                  "value": "ENGAGEMENT ASC",
+                },
+                "ref": null,
+                "rendered": "Engagement (Low to High)",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Engagement (High to Low)",
+                  "value": "ENGAGEMENT DESC",
+                },
+                "ref": null,
+                "rendered": "Engagement (High to Low)",
+                "type": "option",
+              },
+            ],
+            "type": "select",
+          },
+        ],
+        "type": "div",
       },
       Object {
         "instance": null,
@@ -382,9 +572,45 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <h2>
-            Starred Influencers
-</h2>,
+          <div
+            className="StarredList__header"
+>
+            <h2>
+                        Starred Influencers
+            </h2>
+            <select
+                        className="StarredList__dropdown"
+                        onChange={[Function]}
+            >
+                        <option
+                                    disabled={true}
+                                    selected={true}
+                                    value=""
+                        >
+                                    Sort by
+                        </option>
+                        <option
+                                    value="FOLLOWERS ASC"
+                        >
+                                    Followers (Low to High)
+                        </option>
+                        <option
+                                    value="FOLLOWERS DESC"
+                        >
+                                    Followers (High to Low)
+                        </option>
+                        <option
+                                    value="ENGAGEMENT ASC"
+                        >
+                                    Engagement (Low to High)
+                        </option>
+                        <option
+                                    value="ENGAGEMENT DESC"
+                        >
+                                    Engagement (High to Low)
+                        </option>
+            </select>
+</div>,
           <div
             className="StarredList-items"
 >
@@ -471,11 +697,164 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "Starred Influencers",
+            "children": Array [
+              <h2>
+                Starred Influencers
+</h2>,
+              <select
+                className="StarredList__dropdown"
+                onChange={[Function]}
+>
+                <option
+                                disabled={true}
+                                selected={true}
+                                value=""
+                >
+                                Sort by
+                </option>
+                <option
+                                value="FOLLOWERS ASC"
+                >
+                                Followers (Low to High)
+                </option>
+                <option
+                                value="FOLLOWERS DESC"
+                >
+                                Followers (High to Low)
+                </option>
+                <option
+                                value="ENGAGEMENT ASC"
+                >
+                                Engagement (Low to High)
+                </option>
+                <option
+                                value="ENGAGEMENT DESC"
+                >
+                                Engagement (High to Low)
+                </option>
+</select>,
+            ],
+            "className": "StarredList__header",
           },
           "ref": null,
-          "rendered": "Starred Influencers",
-          "type": "h2",
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Starred Influencers",
+              },
+              "ref": null,
+              "rendered": "Starred Influencers",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <option
+                    disabled={true}
+                    selected={true}
+                    value=""
+>
+                    Sort by
+</option>,
+                  <option
+                    value="FOLLOWERS ASC"
+>
+                    Followers (Low to High)
+</option>,
+                  <option
+                    value="FOLLOWERS DESC"
+>
+                    Followers (High to Low)
+</option>,
+                  <option
+                    value="ENGAGEMENT ASC"
+>
+                    Engagement (Low to High)
+</option>,
+                  <option
+                    value="ENGAGEMENT DESC"
+>
+                    Engagement (High to Low)
+</option>,
+                ],
+                "className": "StarredList__dropdown",
+                "onChange": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Sort by",
+                    "disabled": true,
+                    "selected": true,
+                    "value": "",
+                  },
+                  "ref": null,
+                  "rendered": "Sort by",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Followers (Low to High)",
+                    "value": "FOLLOWERS ASC",
+                  },
+                  "ref": null,
+                  "rendered": "Followers (Low to High)",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Followers (High to Low)",
+                    "value": "FOLLOWERS DESC",
+                  },
+                  "ref": null,
+                  "rendered": "Followers (High to Low)",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Engagement (Low to High)",
+                    "value": "ENGAGEMENT ASC",
+                  },
+                  "ref": null,
+                  "rendered": "Engagement (Low to High)",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Engagement (High to Low)",
+                    "value": "ENGAGEMENT DESC",
+                  },
+                  "ref": null,
+                  "rendered": "Engagement (High to Low)",
+                  "type": "option",
+                },
+              ],
+              "type": "select",
+            },
+          ],
+          "type": "div",
         },
         Object {
           "instance": null,

@@ -10,7 +10,7 @@ export const StarredListItem = props => {
       <div className="StarredListItem">
         <img
           src={props.influencer_instagram_profile_image}
-          alt="profile image"
+          alt="head shot of influencer"
         />
         <div className="StarredListItem__details">
           <h3>{props.influencer_full_name}</h3>
