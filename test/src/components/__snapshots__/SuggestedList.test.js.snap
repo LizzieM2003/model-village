@@ -1,0 +1,296 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SuggestedList renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SuggestedList
+    suggested={
+        Array [
+            Object {
+              "influencer_full_name": "Hannah Ross",
+              "influencer_id": 123,
+              "influencer_instagram_profile_image": "https://randomuser.me/api/portraits/women/62.jpg",
+              "influencer_instagram_username": "hross64346",
+            },
+            Object {
+              "influencer_full_name": "Emily White",
+              "influencer_id": 234,
+              "influencer_instagram_profile_image": "https://randomuser.me/api/portraits/women/14.jpg",
+              "influencer_instagram_username": "emwhite",
+            },
+            Object {
+              "influencer_full_name": "Olivia Wagner",
+              "influencer_id": 345,
+              "influencer_instagram_profile_image": "https://randomuser.me/api/portraits/women/29.jpg",
+              "influencer_instagram_username": "olivia_wagner_official",
+            },
+          ]
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h2>
+          Suggested Influencers
+</h2>,
+        <div
+          className="SuggestedList-items"
+>
+          <Connect(Component)
+                    influencer_full_name="Hannah Ross"
+                    influencer_id={123}
+                    influencer_instagram_profile_image="https://randomuser.me/api/portraits/women/62.jpg"
+                    influencer_instagram_username="hross64346"
+          />
+          <Connect(Component)
+                    influencer_full_name="Emily White"
+                    influencer_id={234}
+                    influencer_instagram_profile_image="https://randomuser.me/api/portraits/women/14.jpg"
+                    influencer_instagram_username="emwhite"
+          />
+          <Connect(Component)
+                    influencer_full_name="Olivia Wagner"
+                    influencer_id={345}
+                    influencer_instagram_profile_image="https://randomuser.me/api/portraits/women/29.jpg"
+                    influencer_instagram_username="olivia_wagner_official"
+          />
+</div>,
+      ],
+      "className": "SuggestedList",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Suggested Influencers",
+        },
+        "ref": null,
+        "rendered": "Suggested Influencers",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <Connect(Component)
+              influencer_full_name="Hannah Ross"
+              influencer_id={123}
+              influencer_instagram_profile_image="https://randomuser.me/api/portraits/women/62.jpg"
+              influencer_instagram_username="hross64346"
+/>,
+            <Connect(Component)
+              influencer_full_name="Emily White"
+              influencer_id={234}
+              influencer_instagram_profile_image="https://randomuser.me/api/portraits/women/14.jpg"
+              influencer_instagram_username="emwhite"
+/>,
+            <Connect(Component)
+              influencer_full_name="Olivia Wagner"
+              influencer_id={345}
+              influencer_instagram_profile_image="https://randomuser.me/api/portraits/women/29.jpg"
+              influencer_instagram_username="olivia_wagner_official"
+/>,
+          ],
+          "className": "SuggestedList-items",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "123",
+            "nodeType": "class",
+            "props": Object {
+              "influencer_full_name": "Hannah Ross",
+              "influencer_id": 123,
+              "influencer_instagram_profile_image": "https://randomuser.me/api/portraits/women/62.jpg",
+              "influencer_instagram_username": "hross64346",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "234",
+            "nodeType": "class",
+            "props": Object {
+              "influencer_full_name": "Emily White",
+              "influencer_id": 234,
+              "influencer_instagram_profile_image": "https://randomuser.me/api/portraits/women/14.jpg",
+              "influencer_instagram_username": "emwhite",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "345",
+            "nodeType": "class",
+            "props": Object {
+              "influencer_full_name": "Olivia Wagner",
+              "influencer_id": 345,
+              "influencer_instagram_profile_image": "https://randomuser.me/api/portraits/women/29.jpg",
+              "influencer_instagram_username": "olivia_wagner_official",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h2>
+            Suggested Influencers
+</h2>,
+          <div
+            className="SuggestedList-items"
+>
+            <Connect(Component)
+                        influencer_full_name="Hannah Ross"
+                        influencer_id={123}
+                        influencer_instagram_profile_image="https://randomuser.me/api/portraits/women/62.jpg"
+                        influencer_instagram_username="hross64346"
+            />
+            <Connect(Component)
+                        influencer_full_name="Emily White"
+                        influencer_id={234}
+                        influencer_instagram_profile_image="https://randomuser.me/api/portraits/women/14.jpg"
+                        influencer_instagram_username="emwhite"
+            />
+            <Connect(Component)
+                        influencer_full_name="Olivia Wagner"
+                        influencer_id={345}
+                        influencer_instagram_profile_image="https://randomuser.me/api/portraits/women/29.jpg"
+                        influencer_instagram_username="olivia_wagner_official"
+            />
+</div>,
+        ],
+        "className": "SuggestedList",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Suggested Influencers",
+          },
+          "ref": null,
+          "rendered": "Suggested Influencers",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Connect(Component)
+                influencer_full_name="Hannah Ross"
+                influencer_id={123}
+                influencer_instagram_profile_image="https://randomuser.me/api/portraits/women/62.jpg"
+                influencer_instagram_username="hross64346"
+/>,
+              <Connect(Component)
+                influencer_full_name="Emily White"
+                influencer_id={234}
+                influencer_instagram_profile_image="https://randomuser.me/api/portraits/women/14.jpg"
+                influencer_instagram_username="emwhite"
+/>,
+              <Connect(Component)
+                influencer_full_name="Olivia Wagner"
+                influencer_id={345}
+                influencer_instagram_profile_image="https://randomuser.me/api/portraits/women/29.jpg"
+                influencer_instagram_username="olivia_wagner_official"
+/>,
+            ],
+            "className": "SuggestedList-items",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "123",
+              "nodeType": "class",
+              "props": Object {
+                "influencer_full_name": "Hannah Ross",
+                "influencer_id": 123,
+                "influencer_instagram_profile_image": "https://randomuser.me/api/portraits/women/62.jpg",
+                "influencer_instagram_username": "hross64346",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "234",
+              "nodeType": "class",
+              "props": Object {
+                "influencer_full_name": "Emily White",
+                "influencer_id": 234,
+                "influencer_instagram_profile_image": "https://randomuser.me/api/portraits/women/14.jpg",
+                "influencer_instagram_username": "emwhite",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "345",
+              "nodeType": "class",
+              "props": Object {
+                "influencer_full_name": "Olivia Wagner",
+                "influencer_id": 345,
+                "influencer_instagram_profile_image": "https://randomuser.me/api/portraits/women/29.jpg",
+                "influencer_instagram_username": "olivia_wagner_official",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

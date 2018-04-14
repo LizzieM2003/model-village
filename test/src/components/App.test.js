@@ -9,6 +9,13 @@ configure({ adapter: new Adapter() });
 
 const app = shallow(<App />);
 
-it ('renders correctly', () => {
-   expect(app).toMatchSnapshot();
+describe('App', () => {
+  it('renders correctly', () => {
+    expect(app).toMatchSnapshot();
+  });
+
+  it('contains a connected SuggestedList component', () => {
+    console.log(app.debug());
+    expect(app.find('Connect(SuggestedList)').exists()).toBe(true);
+  });
 });

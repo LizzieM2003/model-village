@@ -1,0 +1,6 @@
+.App {
+  display: flex;
+  width: 90vw;
+  box-sizing: border-box;
+  margin: 0 auto;
+}

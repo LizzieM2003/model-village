@@ -3,7 +3,7 @@ import * as constants from '../actions/constants';
 
 const sortInfluencers = (influencers, { field, order }) => {
   const ascOrder = fieldName => (a, b) =>
-    a.statistics[fieldName] - b.statistics[fieldname];
+    a.statistics[fieldName] - b.statistics[fieldName];
 
   const descOrder = fieldName => (a, b) =>
     b.statistics[fieldName] - a.statistics[fieldName];

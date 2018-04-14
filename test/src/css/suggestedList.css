@@ -1,0 +1,43 @@
+.SuggestedList {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 35%;
+  border-right: 1px dashed silver;
+}
+
+.SuggestedListItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.SuggestedListItem img {
+  height: 80px;
+  border-radius: 50%;
+  border-bottom: 5px solid purple;
+  border-left: 5px solid blueviolet;
+  border-right: 5px solid plum;
+  border-top: 5px solid plum;
+}
+
+.SuggestedListItem__details {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-grow: 2;
+  padding: 10px;
+}
+
+.SuggestedListItem button {
+  height: 50px;
+  width: 50px;
+  border: none;
+  color: silver;
+  font-size: 20px;
+  cursor: pointer;
+}
