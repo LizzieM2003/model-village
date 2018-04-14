@@ -1,3 +1,238 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`SuggestedListItem renders correctly 1`] = `[Function]`;
+exports[`SuggestedListItem renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    fetchInfluencer={[Function]}
+    influencer_full_name="Hannah Ross"
+    influencer_id={123}
+    influencer_instagram_profile_image="https://randomuser.me/api/portraits/women/62.jpg"
+    influencer_instagram_username="hross64346"
+    starred={Array []}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <img
+          alt="head shot of influencer"
+          src="https://randomuser.me/api/portraits/women/62.jpg"
+/>,
+        <div
+          className="SuggestedListItem__details"
+>
+          <h3>
+                    Hannah Ross
+          </h3>
+          <p>
+                    hross64346
+          </p>
+</div>,
+        <button
+          className="SuggestedListItem__button"
+          disabled={false}
+          onClick={[Function]}
+>
+          +
+</button>,
+      ],
+      "className": "SuggestedListItem",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "alt": "head shot of influencer",
+          "src": "https://randomuser.me/api/portraits/women/62.jpg",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "img",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h3>
+              Hannah Ross
+</h3>,
+            <p>
+              hross64346
+</p>,
+          ],
+          "className": "SuggestedListItem__details",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Hannah Ross",
+            },
+            "ref": null,
+            "rendered": "Hannah Ross",
+            "type": "h3",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "hross64346",
+            },
+            "ref": null,
+            "rendered": "hross64346",
+            "type": "p",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "+",
+          "className": "SuggestedListItem__button",
+          "disabled": false,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "+",
+        "type": "button",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <img
+            alt="head shot of influencer"
+            src="https://randomuser.me/api/portraits/women/62.jpg"
+/>,
+          <div
+            className="SuggestedListItem__details"
+>
+            <h3>
+                        Hannah Ross
+            </h3>
+            <p>
+                        hross64346
+            </p>
+</div>,
+          <button
+            className="SuggestedListItem__button"
+            disabled={false}
+            onClick={[Function]}
+>
+            +
+</button>,
+        ],
+        "className": "SuggestedListItem",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "alt": "head shot of influencer",
+            "src": "https://randomuser.me/api/portraits/women/62.jpg",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "img",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h3>
+                Hannah Ross
+</h3>,
+              <p>
+                hross64346
+</p>,
+            ],
+            "className": "SuggestedListItem__details",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Hannah Ross",
+              },
+              "ref": null,
+              "rendered": "Hannah Ross",
+              "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "hross64346",
+              },
+              "ref": null,
+              "rendered": "hross64346",
+              "type": "p",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "+",
+            "className": "SuggestedListItem__button",
+            "disabled": false,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "+",
+          "type": "button",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

@@ -9,7 +9,6 @@ import suggestedData from '../data/suggested_influencers.json';
 configure({ adapter: new Adapter() });
 
 describe('SuggestedList', () => {
-  const mockFetchInfluencer = jest.fn();
   const props = {
     suggested: suggestedData
   };
