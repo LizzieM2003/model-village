@@ -6,6 +6,10 @@ import StarredListItem from './StarredListItem';
 import { FOLLOWERS, ENGAGEMENT, ASC, DESC } from '../actions/constants';
 
 export class StarredList extends Component {
+  state = {
+    sortBy: {}
+  };
+
   dropdownChangedHandler = event => {
     const sortBy = {
       field: '',
@@ -14,12 +18,26 @@ export class StarredList extends Component {
 
     if (event.target.value) {
       const sortByArr = event.target.value.split(' ');
+
       sortBy.field = sortByArr[0];
       sortBy.order = sortByArr[1];
+
+      this.setState({
+        sortBy
+      });
     }
 
     this.props.sortStarred(sortBy);
   };
+
+
+  componentDidUpdate(prevProps, prevState) {
+    // run sort when add or remove starred influencers
+    if (prevProps.starred.length !== this.props.starred.length) {
+      this.props.sortStarred(this.state.sortBy);
+    }
+    
+  }
 
   render() {
     const influencers = this.props.starred.map(influencer => (
