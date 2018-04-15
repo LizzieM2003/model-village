@@ -43,26 +43,45 @@ ShallowWrapper {
                     <h3>
                               Hannah Ross
                     </h3>
-                    <p>
+                    <p
+                              style={
+                                        Object {
+                                                  "alignItems": "center",
+                                                  "color": "#a9a9a9",
+                                                  "display": "flex",
+                                                  "fontSize": "14px",
+                                                  "marginTop": "10px",
+                                                }
+                              }
+                    >
+                              <instagram
+                                        color="#a9a9a9"
+                                        height="14px"
+                                        width="14px"
+                              />
                               hross64346
                     </p>
           </div>
           <div
                     className="StarredListItem__followers"
           >
+                    <h3>
+                              102,523
+                    </h3>
                     <p>
-                              102523
+                              Followers
                     </p>
-                    followers
           </div>
           <div
                     className="StarredListItem__engagement"
           >
-                    <p>
+                    <h3>
                               3.14
                               %
+                    </h3>
+                    <p>
+                              Engagement
                     </p>
-                    engagement
           </div>
 </div>,
         <button
@@ -92,26 +111,45 @@ ShallowWrapper {
               <h3>
                             Hannah Ross
               </h3>
-              <p>
+              <p
+                            style={
+                                          Object {
+                                                        "alignItems": "center",
+                                                        "color": "#a9a9a9",
+                                                        "display": "flex",
+                                                        "fontSize": "14px",
+                                                        "marginTop": "10px",
+                                                      }
+                            }
+              >
+                            <instagram
+                                          color="#a9a9a9"
+                                          height="14px"
+                                          width="14px"
+                            />
                             hross64346
               </p>
 </div>,
             <div
               className="StarredListItem__followers"
 >
+              <h3>
+                            102,523
+              </h3>
               <p>
-                            102523
+                            Followers
               </p>
-              followers
 </div>,
             <div
               className="StarredListItem__engagement"
 >
-              <p>
+              <h3>
                             3.14
                             %
+              </h3>
+              <p>
+                            Engagement
               </p>
-              engagement
 </div>,
           ],
           "className": "StarredListItem",
@@ -139,7 +177,22 @@ ShallowWrapper {
                 <h3>
                   Hannah Ross
 </h3>,
-                <p>
+                <p
+                  style={
+                                    Object {
+                                                      "alignItems": "center",
+                                                      "color": "#a9a9a9",
+                                                      "display": "flex",
+                                                      "fontSize": "14px",
+                                                      "marginTop": "10px",
+                                                    }
+                  }
+>
+                  <instagram
+                                    color="#a9a9a9"
+                                    height="14px"
+                                    width="14px"
+                  />
                   hross64346
 </p>,
               ],
@@ -163,10 +216,39 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "hross64346",
+                  "children": Array [
+                    <instagram
+                      color="#a9a9a9"
+                      height="14px"
+                      width="14px"
+/>,
+                    "hross64346",
+                  ],
+                  "style": Object {
+                    "alignItems": "center",
+                    "color": "#a9a9a9",
+                    "display": "flex",
+                    "fontSize": "14px",
+                    "marginTop": "10px",
+                  },
                 },
                 "ref": null,
-                "rendered": "hross64346",
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "color": "#a9a9a9",
+                      "height": "14px",
+                      "width": "14px",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "hross64346",
+                ],
                 "type": "p",
               },
             ],
@@ -178,10 +260,12 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": Array [
+                <h3>
+                  102,523
+</h3>,
                 <p>
-                  102523
+                  Followers
 </p>,
-                "followers",
               ],
               "className": "StarredListItem__followers",
             },
@@ -192,13 +276,23 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": 102523,
+                  "children": "102,523",
                 },
                 "ref": null,
-                "rendered": 102523,
+                "rendered": "102,523",
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Followers",
+                },
+                "ref": null,
+                "rendered": "Followers",
                 "type": "p",
               },
-              "followers",
             ],
             "type": "div",
           },
@@ -208,11 +302,13 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": Array [
-                <p>
+                <h3>
                   3.14
                   %
+</h3>,
+                <p>
+                  Engagement
 </p>,
-                "engagement",
               ],
               "className": "StarredListItem__engagement",
             },
@@ -233,9 +329,19 @@ ShallowWrapper {
                   "3.14",
                   "%",
                 ],
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Engagement",
+                },
+                "ref": null,
+                "rendered": "Engagement",
                 "type": "p",
               },
-              "engagement",
             ],
             "type": "div",
           },
@@ -278,26 +384,45 @@ ShallowWrapper {
                         <h3>
                                     Hannah Ross
                         </h3>
-                        <p>
+                        <p
+                                    style={
+                                                Object {
+                                                            "alignItems": "center",
+                                                            "color": "#a9a9a9",
+                                                            "display": "flex",
+                                                            "fontSize": "14px",
+                                                            "marginTop": "10px",
+                                                          }
+                                    }
+                        >
+                                    <instagram
+                                                color="#a9a9a9"
+                                                height="14px"
+                                                width="14px"
+                                    />
                                     hross64346
                         </p>
             </div>
             <div
                         className="StarredListItem__followers"
             >
+                        <h3>
+                                    102,523
+                        </h3>
                         <p>
-                                    102523
+                                    Followers
                         </p>
-                        followers
             </div>
             <div
                         className="StarredListItem__engagement"
             >
-                        <p>
+                        <h3>
                                     3.14
                                     %
+                        </h3>
+                        <p>
+                                    Engagement
                         </p>
-                        engagement
             </div>
 </div>,
           <button
@@ -327,26 +452,45 @@ ShallowWrapper {
                 <h3>
                                 Hannah Ross
                 </h3>
-                <p>
+                <p
+                                style={
+                                                Object {
+                                                                "alignItems": "center",
+                                                                "color": "#a9a9a9",
+                                                                "display": "flex",
+                                                                "fontSize": "14px",
+                                                                "marginTop": "10px",
+                                                              }
+                                }
+                >
+                                <instagram
+                                                color="#a9a9a9"
+                                                height="14px"
+                                                width="14px"
+                                />
                                 hross64346
                 </p>
 </div>,
               <div
                 className="StarredListItem__followers"
 >
+                <h3>
+                                102,523
+                </h3>
                 <p>
-                                102523
+                                Followers
                 </p>
-                followers
 </div>,
               <div
                 className="StarredListItem__engagement"
 >
-                <p>
+                <h3>
                                 3.14
                                 %
+                </h3>
+                <p>
+                                Engagement
                 </p>
-                engagement
 </div>,
             ],
             "className": "StarredListItem",
@@ -374,7 +518,22 @@ ShallowWrapper {
                   <h3>
                     Hannah Ross
 </h3>,
-                  <p>
+                  <p
+                    style={
+                                        Object {
+                                                            "alignItems": "center",
+                                                            "color": "#a9a9a9",
+                                                            "display": "flex",
+                                                            "fontSize": "14px",
+                                                            "marginTop": "10px",
+                                                          }
+                    }
+>
+                    <instagram
+                                        color="#a9a9a9"
+                                        height="14px"
+                                        width="14px"
+                    />
                     hross64346
 </p>,
                 ],
@@ -398,10 +557,39 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "hross64346",
+                    "children": Array [
+                      <instagram
+                        color="#a9a9a9"
+                        height="14px"
+                        width="14px"
+/>,
+                      "hross64346",
+                    ],
+                    "style": Object {
+                      "alignItems": "center",
+                      "color": "#a9a9a9",
+                      "display": "flex",
+                      "fontSize": "14px",
+                      "marginTop": "10px",
+                    },
                   },
                   "ref": null,
-                  "rendered": "hross64346",
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "color": "#a9a9a9",
+                        "height": "14px",
+                        "width": "14px",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "hross64346",
+                  ],
                   "type": "p",
                 },
               ],
@@ -413,10 +601,12 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": Array [
+                  <h3>
+                    102,523
+</h3>,
                   <p>
-                    102523
+                    Followers
 </p>,
-                  "followers",
                 ],
                 "className": "StarredListItem__followers",
               },
@@ -427,13 +617,23 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": 102523,
+                    "children": "102,523",
                   },
                   "ref": null,
-                  "rendered": 102523,
+                  "rendered": "102,523",
+                  "type": "h3",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Followers",
+                  },
+                  "ref": null,
+                  "rendered": "Followers",
                   "type": "p",
                 },
-                "followers",
               ],
               "type": "div",
             },
@@ -443,11 +643,13 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": Array [
-                  <p>
+                  <h3>
                     3.14
                     %
+</h3>,
+                  <p>
+                    Engagement
 </p>,
-                  "engagement",
                 ],
                 "className": "StarredListItem__engagement",
               },
@@ -468,9 +670,19 @@ ShallowWrapper {
                     "3.14",
                     "%",
                   ],
+                  "type": "h3",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Engagement",
+                  },
+                  "ref": null,
+                  "rendered": "Engagement",
                   "type": "p",
                 },
-                "engagement",
               ],
               "type": "div",
             },

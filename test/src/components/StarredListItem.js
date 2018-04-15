@@ -1,10 +1,19 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { addStarred, removeStarred } from '../actions/starred';
+import InstagramSVG from '../svgs/Instagram';
 
 import '../css/starredList.css';
 
 export const StarredListItem = props => {
+  const styles = {
+    color: '#a9a9a9',
+    fontSize: '14px',
+    display: 'flex',
+    alignItems: 'center',
+    marginTop: '10px'
+  };
+
   return (
     <div className="StarredListItem__container">
       <div className="StarredListItem">
@@ -14,18 +23,30 @@ export const StarredListItem = props => {
         />
         <div className="StarredListItem__details">
           <h3>{props.influencer_full_name}</h3>
-          <p>{props.influencer_instagram_username}</p>
+          <p style={styles}>
+            <InstagramSVG
+              color={styles.color}
+              height={styles.fontSize}
+              width={styles.fontSize}
+            />
+            {props.influencer_instagram_username}
+          </p>
         </div>
         <div className="StarredListItem__followers">
-          <p>{props.statistics.followers}</p>
-          followers
+          <h3>{props.statistics.followers.toLocaleString()}</h3>
+          <p>Followers</p>
         </div>
         <div className="StarredListItem__engagement">
-          <p>{props.statistics.engagement}%</p>
-          engagement
+          <h3>{props.statistics.engagement}%</h3>
+          <p>Engagement</p>
         </div>
       </div>
-      <button className="StarredListItem__container__button" onClick={() => props.removeStarred(props.influencer_id)}>x</button>
+      <button
+        className="StarredListItem__container__button"
+        onClick={() => props.removeStarred(props.influencer_id)}
+      >
+        x
+      </button>
     </div>
   );
 };

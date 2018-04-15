@@ -25,19 +25,38 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <img
-          alt="head shot of influencer"
-          src="https://randomuser.me/api/portraits/women/62.jpg"
-/>,
         <div
-          className="SuggestedListItem__details"
+          className="SuggestedListItem"
 >
-          <h3>
-                    Hannah Ross
-          </h3>
-          <p>
-                    hross64346
-          </p>
+          <img
+                    alt="head shot of influencer"
+                    src="https://randomuser.me/api/portraits/women/62.jpg"
+          />
+          <div
+                    className="SuggestedListItem__details"
+          >
+                    <h3>
+                              Hannah Ross
+                    </h3>
+                    <p
+                              style={
+                                        Object {
+                                                  "alignItems": "center",
+                                                  "color": "#a9a9a9",
+                                                  "display": "flex",
+                                                  "fontSize": "14px",
+                                                  "marginTop": "10px",
+                                                }
+                              }
+                    >
+                              <instagram
+                                        color="#a9a9a9"
+                                        height="14px"
+                                        width="14px"
+                              />
+                              hross64346
+                    </p>
+          </div>
 </div>,
         <button
           className="SuggestedListItem__button"
@@ -47,7 +66,7 @@ ShallowWrapper {
           +
 </button>,
       ],
-      "className": "SuggestedListItem",
+      "className": "SuggestedListItem__container",
     },
     "ref": null,
     "rendered": Array [
@@ -56,27 +75,38 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "alt": "head shot of influencer",
-          "src": "https://randomuser.me/api/portraits/women/62.jpg",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": "img",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
           "children": Array [
-            <h3>
-              Hannah Ross
-</h3>,
-            <p>
-              hross64346
-</p>,
+            <img
+              alt="head shot of influencer"
+              src="https://randomuser.me/api/portraits/women/62.jpg"
+/>,
+            <div
+              className="SuggestedListItem__details"
+>
+              <h3>
+                            Hannah Ross
+              </h3>
+              <p
+                            style={
+                                          Object {
+                                                        "alignItems": "center",
+                                                        "color": "#a9a9a9",
+                                                        "display": "flex",
+                                                        "fontSize": "14px",
+                                                        "marginTop": "10px",
+                                                      }
+                            }
+              >
+                            <instagram
+                                          color="#a9a9a9"
+                                          height="14px"
+                                          width="14px"
+                            />
+                            hross64346
+              </p>
+</div>,
           ],
-          "className": "SuggestedListItem__details",
+          "className": "SuggestedListItem",
         },
         "ref": null,
         "rendered": Array [
@@ -85,22 +115,98 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": "Hannah Ross",
+              "alt": "head shot of influencer",
+              "src": "https://randomuser.me/api/portraits/women/62.jpg",
             },
             "ref": null,
-            "rendered": "Hannah Ross",
-            "type": "h3",
+            "rendered": null,
+            "type": "img",
           },
           Object {
             "instance": null,
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": "hross64346",
+              "children": Array [
+                <h3>
+                  Hannah Ross
+</h3>,
+                <p
+                  style={
+                                    Object {
+                                                      "alignItems": "center",
+                                                      "color": "#a9a9a9",
+                                                      "display": "flex",
+                                                      "fontSize": "14px",
+                                                      "marginTop": "10px",
+                                                    }
+                  }
+>
+                  <instagram
+                                    color="#a9a9a9"
+                                    height="14px"
+                                    width="14px"
+                  />
+                  hross64346
+</p>,
+              ],
+              "className": "SuggestedListItem__details",
             },
             "ref": null,
-            "rendered": "hross64346",
-            "type": "p",
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Hannah Ross",
+                },
+                "ref": null,
+                "rendered": "Hannah Ross",
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <instagram
+                      color="#a9a9a9"
+                      height="14px"
+                      width="14px"
+/>,
+                    "hross64346",
+                  ],
+                  "style": Object {
+                    "alignItems": "center",
+                    "color": "#a9a9a9",
+                    "display": "flex",
+                    "fontSize": "14px",
+                    "marginTop": "10px",
+                  },
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "color": "#a9a9a9",
+                      "height": "14px",
+                      "width": "14px",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "hross64346",
+                ],
+                "type": "p",
+              },
+            ],
+            "type": "div",
           },
         ],
         "type": "div",
@@ -129,19 +235,38 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <img
-            alt="head shot of influencer"
-            src="https://randomuser.me/api/portraits/women/62.jpg"
-/>,
           <div
-            className="SuggestedListItem__details"
+            className="SuggestedListItem"
 >
-            <h3>
-                        Hannah Ross
-            </h3>
-            <p>
-                        hross64346
-            </p>
+            <img
+                        alt="head shot of influencer"
+                        src="https://randomuser.me/api/portraits/women/62.jpg"
+            />
+            <div
+                        className="SuggestedListItem__details"
+            >
+                        <h3>
+                                    Hannah Ross
+                        </h3>
+                        <p
+                                    style={
+                                                Object {
+                                                            "alignItems": "center",
+                                                            "color": "#a9a9a9",
+                                                            "display": "flex",
+                                                            "fontSize": "14px",
+                                                            "marginTop": "10px",
+                                                          }
+                                    }
+                        >
+                                    <instagram
+                                                color="#a9a9a9"
+                                                height="14px"
+                                                width="14px"
+                                    />
+                                    hross64346
+                        </p>
+            </div>
 </div>,
           <button
             className="SuggestedListItem__button"
@@ -151,7 +276,7 @@ ShallowWrapper {
             +
 </button>,
         ],
-        "className": "SuggestedListItem",
+        "className": "SuggestedListItem__container",
       },
       "ref": null,
       "rendered": Array [
@@ -160,27 +285,38 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "alt": "head shot of influencer",
-            "src": "https://randomuser.me/api/portraits/women/62.jpg",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": "img",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
             "children": Array [
-              <h3>
-                Hannah Ross
-</h3>,
-              <p>
-                hross64346
-</p>,
+              <img
+                alt="head shot of influencer"
+                src="https://randomuser.me/api/portraits/women/62.jpg"
+/>,
+              <div
+                className="SuggestedListItem__details"
+>
+                <h3>
+                                Hannah Ross
+                </h3>
+                <p
+                                style={
+                                                Object {
+                                                                "alignItems": "center",
+                                                                "color": "#a9a9a9",
+                                                                "display": "flex",
+                                                                "fontSize": "14px",
+                                                                "marginTop": "10px",
+                                                              }
+                                }
+                >
+                                <instagram
+                                                color="#a9a9a9"
+                                                height="14px"
+                                                width="14px"
+                                />
+                                hross64346
+                </p>
+</div>,
             ],
-            "className": "SuggestedListItem__details",
+            "className": "SuggestedListItem",
           },
           "ref": null,
           "rendered": Array [
@@ -189,22 +325,98 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "Hannah Ross",
+                "alt": "head shot of influencer",
+                "src": "https://randomuser.me/api/portraits/women/62.jpg",
               },
               "ref": null,
-              "rendered": "Hannah Ross",
-              "type": "h3",
+              "rendered": null,
+              "type": "img",
             },
             Object {
               "instance": null,
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "hross64346",
+                "children": Array [
+                  <h3>
+                    Hannah Ross
+</h3>,
+                  <p
+                    style={
+                                        Object {
+                                                            "alignItems": "center",
+                                                            "color": "#a9a9a9",
+                                                            "display": "flex",
+                                                            "fontSize": "14px",
+                                                            "marginTop": "10px",
+                                                          }
+                    }
+>
+                    <instagram
+                                        color="#a9a9a9"
+                                        height="14px"
+                                        width="14px"
+                    />
+                    hross64346
+</p>,
+                ],
+                "className": "SuggestedListItem__details",
               },
               "ref": null,
-              "rendered": "hross64346",
-              "type": "p",
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Hannah Ross",
+                  },
+                  "ref": null,
+                  "rendered": "Hannah Ross",
+                  "type": "h3",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <instagram
+                        color="#a9a9a9"
+                        height="14px"
+                        width="14px"
+/>,
+                      "hross64346",
+                    ],
+                    "style": Object {
+                      "alignItems": "center",
+                      "color": "#a9a9a9",
+                      "display": "flex",
+                      "fontSize": "14px",
+                      "marginTop": "10px",
+                    },
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "color": "#a9a9a9",
+                        "height": "14px",
+                        "width": "14px",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "hross64346",
+                  ],
+                  "type": "p",
+                },
+              ],
+              "type": "div",
             },
           ],
           "type": "div",

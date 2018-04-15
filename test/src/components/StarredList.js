@@ -30,26 +30,29 @@ export class StarredList extends Component {
       <div className="StarredList">
         <div className="StarredList__header">
           <h2>Starred Influencers</h2>
-          <select
-            className="StarredList__dropdown"
-            onChange={this.dropdownChangedHandler}
-          >
-            <option value="" disabled selected>
-              Sort by
-            </option>
-            <option value={`${FOLLOWERS} ${ASC}`}>
-              Followers (Low to High)
-            </option>
-            <option value={`${FOLLOWERS} ${DESC}`}>
-              Followers (High to Low)
-            </option>
-            <option value={`${ENGAGEMENT} ${ASC}`}>
-              Engagement (Low to High)
-            </option>
-            <option value={`${ENGAGEMENT} ${DESC}`}>
-              Engagement (High to Low)
-            </option>
-          </select>
+          <label>
+            Sort By:{' '}
+            <select
+              className="StarredList__dropdown"
+              onChange={this.dropdownChangedHandler}
+            >
+              <option value="" disabled selected>
+                Sort by
+              </option>
+              <option value={`${FOLLOWERS} ${ASC}`}>
+                Followers (Low to High)
+              </option>
+              <option value={`${FOLLOWERS} ${DESC}`}>
+                Followers (High to Low)
+              </option>
+              <option value={`${ENGAGEMENT} ${ASC}`}>
+                Engagement (Low to High)
+              </option>
+              <option value={`${ENGAGEMENT} ${DESC}`}>
+                Engagement (High to Low)
+              </option>
+            </select>
+          </label>
         </div>
         <div className="StarredList-items">{influencers}</div>
       </div>

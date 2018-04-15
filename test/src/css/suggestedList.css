@@ -2,8 +2,19 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 35%;
+  width: 25%;
   border-right: 1px dashed silver;
+}
+
+.SuggestedList h2 {
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.SuggestedListItem__container {
+  display: flex;
+  align-items: center;
 }
 
 .SuggestedListItem {
@@ -11,14 +22,14 @@
   justify-content: space-between;
   align-items: center;
   margin: 10px;
-  padding: 10px;
+  /* padding: 10px; */
   width: 90%;
   margin: 10px auto;
   height: 90px;
 }
 
 .SuggestedListItem img {
-  height: 70px;
+  height: 60px;
   border-radius: 50%;
   border-bottom: 5px solid purple;
   border-left: 5px solid blueviolet;
@@ -29,16 +40,19 @@
 .SuggestedListItem__details {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  flex-grow: 2;
-  padding: 10px;
+  flex-wrap: nowrap;
+  /* flex-grow: 2; */
+  padding: 0 10px;
+  justify-content: center;
+  width: 175px;
+  height: 100%;
 }
 
-.SuggestedListItem button {
+.SuggestedListItem__button {
   height: 50px;
   width: 50px;
   border: none;
   color: silver;
-  font-size: 20px;
+  font-size: 25px;
   cursor: pointer;
 }
