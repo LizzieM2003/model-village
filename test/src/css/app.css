@@ -4,3 +4,17 @@
   box-sizing: border-box;
   margin: 20px auto;
 }
+
+@media (max-width: 900px) {
+  .App {
+    width: 100vw;
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 800px) {
+  .App {
+    flex-direction: column;
+  }
+}
+
